@@ -201,7 +201,7 @@
   ["keyword.operator","="],
   ["keyword","function"],
   ["paren.lparen","("],
-  ["identifier","self"],
+  ["variable.language","self"],
   ["text",", "],
   ["identifier","other"],
   ["paren.rparen",")"]
@@ -266,7 +266,7 @@
   ["text","    "],
   ["keyword","return"],
   ["text"," "],
-  ["identifier","self"],
+  ["variable.language","self"],
   ["keyword.operator",":"],
   ["support.function","format"],
   ["paren.lparen","("],
@@ -283,13 +283,13 @@
    ["bracketedString",5,"start"],
   ["support.function","print"],
   ["paren.lparen","("],
-  ["comment","[===["]
+  ["string.start","[===["]
 ],[
    ["bracketedString",5,"start"],
-  ["comment","    blah blah %s, (%d %d)"]
+  ["string","    blah blah %s, (%d %d)"]
 ],[
    "start",
-  ["comment","]===]"],
+  ["string.end","]===]"],
   ["keyword.operator","%"],
   ["paren.lparen","{"],
   ["string","\"blah\""],
@@ -315,7 +315,7 @@
   ["paren.lparen","("],
   ["constant.library","table"],
   ["text","."],
-  ["invalid.deprecated","maxn"],
+  ["keyword.deprecated","maxn"],
   ["paren.lparen","{"],
   ["constant.numeric","1"],
   ["text",","],

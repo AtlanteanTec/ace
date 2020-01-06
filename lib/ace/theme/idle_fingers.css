@@ -1,6 +1,6 @@
 .ace-idle-fingers .ace_gutter {
   background: #3b3b3b;
-  color: #fff
+  color: rgb(153,153,153)
 }
 
 .ace-idle-fingers .ace_print-margin {
@@ -14,12 +14,7 @@
 }
 
 .ace-idle-fingers .ace_cursor {
-  border-left: 2px solid #91FF00
-}
-
-.ace-idle-fingers .ace_overwrite-cursors .ace_cursor {
-  border-left: 0px;
-  border-bottom: 1px solid #91FF00
+  color: #91FF00
 }
 
 .ace-idle-fingers .ace_marker-layer .ace_selection {
@@ -28,7 +23,6 @@
 
 .ace-idle-fingers.ace_multiselect .ace_selection.ace_start {
   box-shadow: 0 0 3px 0px #323232;
-  border-radius: 2px
 }
 
 .ace-idle-fingers .ace_marker-layer .ace_step {
@@ -114,5 +108,5 @@
 }
 
 .ace-idle-fingers .ace_indent-guide {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWMwMjLyZYiPj/8PAAreAwAI1+g0AAAAAElFTkSuQmCC) right repeat-y;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWMwMjLyZYiPj/8PAAreAwAI1+g0AAAAAElFTkSuQmCC) right repeat-y
 }

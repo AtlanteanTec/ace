@@ -10,6 +10,7 @@
 
 .ace-dreamweaver {
   background-color: #FFFFFF;
+  color: black;
 }
 
 .ace-dreamweaver .ace_fold {
@@ -17,12 +18,7 @@
 }
 
 .ace-dreamweaver .ace_cursor {
-  border-left: 2px solid black;
-}
-
-.ace-dreamweaver .ace_overwrite-cursors .ace_cursor {
-  border-left: 0px;
-  border-bottom: 1px solid black;
+  color: black;
 }
         
 .ace-dreamweaver .ace_invisible {
@@ -132,6 +128,10 @@
 
 .ace-dreamweaver .ace_marker-layer .ace_active-line {
   background: rgba(0, 0, 0, 0.07);
+}
+
+.ace-dreamweaver .ace_gutter-active-line {
+  background-color : #DCDCDC;
 }
 
 .ace-dreamweaver .ace_marker-layer .ace_selected-word {

@@ -14,12 +14,7 @@
 }
 
 .ace-clouds .ace_cursor {
-  border-left: 2px solid #000000
-}
-
-.ace-clouds .ace_overwrite-cursors .ace_cursor {
-  border-left: 0px;
-  border-bottom: 1px solid #000000
+  color: #000000
 }
 
 .ace-clouds .ace_marker-layer .ace_selection {
@@ -28,7 +23,6 @@
 
 .ace-clouds.ace_multiselect .ace_selection.ace_start {
   box-shadow: 0 0 3px 0px #FFFFFF;
-  border-radius: 2px
 }
 
 .ace-clouds .ace_marker-layer .ace_step {
